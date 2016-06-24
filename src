@@ -1,0 +1,1030 @@
+
+<!-- .slide: data-background="/img/tools-pattern.svg" -->
+
+![](/img/build-right-white.png) <!-- .element: style="width: 300px; margin: 0 auto 82px auto; display: block;" -->
+
+### Workshops for a better web.
+### Tools for web crafters.
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Frontend Tooling](/img/build-right-frontend-tooling-white.png) <!-- .element style="height: 300px;" -->
+
+# Welcome <!-- .element style="color: white; margin-bottom: 32px;" -->
+
+![Sparkbox](/img/SBX_logo_horiz_lockup_white.png) <!-- .element style="height: 40px;" -->
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+events 
+
+Events2014 <!-- .element style="font-family: Courier" -->
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![](/img/link.png) <!-- .element: style="height: 200px; width: auto;" -->
+
+[bit.ly/br-tooling-links](bit.ly/br-tooling-links) <!-- .element: style="font-size: 62px;" -->
+
+Note:
+  
+  - Collaboriative Notes
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![](/img/beericon-small-980.png) <!-- .element: style="height: 400px;" -->
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+# Who we are
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+# Who are you?
+
+Note: 
+
+  - what do you do?
+  - what platform?
+  - what do you want to get out of this?
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+[http://bit.ly/frontend-conf-15](http://bit.ly/frontend-conf-15) <!-- .element: style="text-decoration: underline; font-size: 60px;" -->
+
+Note:
+  
+  - Collaboriative Notes
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+# Path of Pain <!-- .element: style="color: white; margin-bottom: 42px;" -->
+
+#### Build Right: Frontend Tooling <!-- .element: style="margin-bottom: 82px;" -->
+
+![Sparkbox](/img/SBX_logo_horiz_lockup_white.png) <!-- .element style="height: 80px;" -->
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+# Traditional <br /> Pain <!-- .element: class="footer-line"-->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+Path of Pain <!-- .element: style="color: white; position: absolute; top: 0; left: 0;" -->
+
+#### Traditional Painful Flow <!-- .element: style="margin-top: 100px;" -->
+
+![Pain Timeline](/img/pain-timeline.png)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Pain Points <!-- .element: style="color: black; position: absolute; top: 86px; left: 0; right: 0;" -->
+
+![Painful Horses](/img/horses.jpg)
+
+Note:
+
+  - Pain Points
+  - Without backups, data can be lost
+  - Designer and developer silo-ing means wasted hours and money
+  - Without version control collaboration is nigh-impossible
+  - Manual deployment increases potential for data loss or bugs
+  - productivity, are you being as efficient as possible?
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Enlightenment <!-- .element: style="color: white; position: absolute; top: 86px; left: 0; right: 0;" -->
+
+![Painful Horses](/img/englightenment.jpg) 
+
+Note:
+
+  - Enlightenment
+  - Modern software development has already solved some of these pain points.
+  - Other solutions have emerged from within the frontend community.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### <span style="letter-spacing: 1px; text-transform: none;">The traditional web development workflow is fraught with variance, isolation, and errors. <span style="color: #dd691e;">Modern frontend tooling provides solutions for most of these issues.</span></span>
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Computers are hard](/img/computers.001.png)  <!-- .element: style="height: 600px;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Computer science merged](/img/computer-science-merge.001.png)  <!-- .element: style=" width: 100%;" -->
+<span style="color: white; 
+text-align: center; 
+font-size: 24px; 
+position: absolute; 
+margin-top: -50px; 
+top: 50%; 
+left: 0; 
+right: 0;">
+  Source Control<br /><span style="text-transform: uppercase;">Dry</span> Principles<br />Javascript
+</span>
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### <span style="letter-spacing: 1px; text-transform: none;">"There's a new set of baseline skills required in order to be successful as a front-end developer, and <span style="color: #dd691e;">developers who don’t meet this baseline are going to start feeling more and more left behind..."</span></span>
+
+[-rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/](http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/)  <!-- .element: style="color: white; margin-top: 70px; display: inline-block;" -->
+
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+# Where Are <br /> We Headed? <!-- .element: class="footer-line"-->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+[github.com/sparkbox/br-frontend-demo](http://github.com/sparkbox/br-frontend-demo) <!-- .element: style="text-decoration: underline; font-size: 80px;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Exercise
+
+1. Create github account <!-- .element class="no-bullet" -->
+2. Create divshot account <!-- .element class="no-bullet" -->
+
+Note:
+
+- Create circleci or codeclimate accounts
+
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+# Source Control! <!-- .element: class="footer-line" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Wait... What's source control ?
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+> Version (source) control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+[Getting Started About Version Control](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
+
+Note:
+- Path of Pain. Multiple developers modifying same files
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### What it gives you
+
+- The ability to collaborate with others on a single codebase <!-- .element: class="fragment" -->
+- Manage any conflicts that collaboration brings <!-- .element: class="fragment" -->
+
+Note:
+- Conflicts the ability to move code around in time.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Terms you should know
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Branch](/img/source-control/push.png)<!-- .element: style="margin-top: -5%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Branch](/img/source-control/pull.png)<!-- .element: style="margin-top: -5%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Branch](/img/source-control/commit.png)<!-- .element: style="margin-top: -5%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Branch](/img/source-control/branch.png)<!-- .element: style="margin-top: -5%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Merge Branch](/img/source-control/merge.png)<!-- .element: style="margin-top: -5%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### $%!@
+### Conflict
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+## Branching is an awesome feature.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+> Git supports rapid branching and merging [...] A core assumption in Git is that a change will be merged more often than it is written, as it is passed around various reviewers. Branches in git are very lightweight.
+
+[Git Mailing List](http://marc.info/?l=linux-kernel&m=111288700902396)
+
+Note:
+- We haven't talked about Git yet, but we'll be there in just a second
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Branch Crazy](/img/source-control/branch-crazy.png)
+Note:
+- Branches are cheap
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Local vs Centralized
+
+Note:
+### Local
+- Changes to files are recorded by a program locally on the developers machines. It’s simply a database of changes to files.
+### Centralized
+- Centralized Version Control Systems were introduced to help developers collaborate with each other.
+- A single server tracks all the code
+- Devs pull down the code and then upload changes.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+#### Both of these solutions suffer from having the change data stored in a single place.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### A third option arises!
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### Distributed Source Control
+
+Note:
+- Every dev downloads the entire repository to their machine.
+- The project is “backed up” on every dev machine.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+###We use Git because it allows *effortless branching,* it's *blazing fast,* and it's *extremely reliable*
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+>"[In making Git] Take CVS as an example of what not to do; if in doubt, make the exact opposite decision."
+#### Torvalds
+
+[Git Software](http://en.wikipedia.org/wiki/Git_%28software%29)
+
+
+<!-- .slide: data-background="/img/source-control/boy-meets-world-make-it-stop.gif" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Recap
+- Git is a DVCS <!-- .element: class="fragment" -->
+- SVN is a CVCS <!-- .element: class="fragment" -->
+
+Note:
+- Source Control also let’s you easily collaborate on the same code with other developers.
+- Source Control let’s you manage changes to your code and move around non-linearly.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### What we use
+Note:
+- A remote Git server
+- Issue/Bug tracker
+- Wiki host
+- Pull-Request manager
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### I want it.
+
+
+<!-- .slide: data-background="/img/source-control/give-it.gif" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Github](/img/source-control/GitHub_Logo_SmartObject.png) <!-- .element: style="display: inline-block; width: 50%; margin-right: -4px; max-height: 197px;" -->
+![BitBucket](/img/source-control/bitbucket.png) <!-- .element: style="display: inline-block; width: 50%; margin-right: -4px; max-height: 197px;" -->
+
+Note:
+Aid workflow, don’t hinder
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Let's use it
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Exercise
+
+1. Set up Git on your machine <!-- .element class="no-bullet" -->
+2. Fork the demo project <!-- .element class="no-bullet" -->
+3. Pull down the demo project to your machine <!-- .element class="no-bullet" -->
+4. Create a new branch <!-- .element class="no-bullet" -->
+5. Remove the screenshot from the README <!-- .element class="no-bullet" -->
+6. Push that branch to Github <!-- .element class="no-bullet" -->
+
+Note:
+
+- add codeclimate
+- add divshot
+
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+# Preprocessors <!-- .element: class="footer-line" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## What, exactly?
+
+- Preprocessors are a way to write code in a friendly language.<!-- .element: class="fragment" -->
+- The code then gets processed into something that browsers can understand.<!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## CSS Preprocessors
+
+Note:
+
+- Sass, Less, Stylus
+  - Libsass over Ruby sass big time
+- Explain how we literally couldn't write CSS the way we do without sass. It's *vital*.
+- We can spend time here, but we don't necessarily want to.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+```css
+@mixin sb-media($query) {
+  $no-mq-support: false !default;
+  $serve-to-nomq-max-width: 63em;
+
+  @if $no-mq-support{
+    @if $query < $serve-to-nomq-max-width {
+      @content;
+    }
+  } @else {
+    @media ( 'min-width:' + $query ) {
+      @content;
+    }
+  }
+}
+```
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## JS Preprocessors
+
+Note:
+
+- Coffeescript
+- 6to5, aka Babel
+- JSX
+- These are pre-processors in various senses of the word.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## HTML Preprocessors
+
+##Nope <!-- .element: class="fragment nope" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Emmet Logo](/img/emmet-logo.png)
+
+[emmet.io](http://emmet.io)  <!-- .element: class="beer" style="margin-top: 32px; font-size: 60px;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Chat time](/img/chat.png) <!-- .element: style="height: 400px;" -->
+
+#### What does this look in real life?
+
+Note:
+
+- talk about integration in various environments
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## How do I run all these things?
+
+![prepros](/img/prepros.png) <!-- .element: style="float: left; width: 50%;" -->
+![codekit](/img/codekit.png)<!-- .element: style="float: left; width: 50%;" -->
+
+Note:
+
+- Codekit Sparkbox story 
+- Great for single purpose use or for easing a team into the idea of preprocessors
+- Not so great for integrating with other tooling. (e.g. have to somehow sync settings for the various apps across team members machines).
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## How do I run all these things?
+
+![prepros](/img/grunt.png) <!-- .element: style="float: left; width: 50%;" -->
+![codekit](/img/gulp.png)<!-- .element: style="float: left; width: 50%;" -->
+
+Note:
+
+- Grunt was the happy ending to our story.
+- We use Gulp and Grunt in our team.
+- Talk about Bower, Grunt, Gulp here.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Grunt
+
+- Grunt is built around configuring tasks <!-- .element: class="fragment" -->
+- Use its APIs and vast array of plugins to mutate a set of files <!-- .element: class="fragment" -->
+- grunt-cli is the "wrapper" that gets installed globally <!-- .element: class="fragment" -->
+
+Note:
+
+- Grunt's APIs are incrediblely powerful. Explain file API which can be a huge time-saver.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Grunt
+
+```coffee-script
+# global module:false 
+module.exports = (grunt) ->
+  # Project configuration
+  grunt.initConfig
+    pkg: grunt.file.readJSON("package.json")
+
+    autoprefixer:
+      dist:
+        src: "css/reveal.css"
+
+    cssmin:
+      compress:
+        files:
+          "css/reveal.min.css": ["css/reveal.css"]
+
+  
+  grunt.loadNpmTasks "grunt-contrib-cssmin"
+  grunt.loadNpmTasks "grunt-autoprefixer"
+  
+  # Core framework CSS
+  grunt.registerTask "css-core", [
+    "autoprefixer"
+    "cssmin"
+  ]
+```
+
+Note:
+
+- syntax can be in either coffeescript or javascript, it will figure it out.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Gulp
+
+- Gulp is fundamentally different from Grunt, it's based around code over configuration <!-- .element: class="fragment" -->
+- While you don't have the vast plugins that Grunt does, you can technically use any npm package. <!-- .element: class="fragment" -->
+
+Note:
+
+- Gulp's approach means your team has to actually write more code, which is not a clear cut good or bad thing.
+- Talk about frontend performance testing api
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Gulp
+
+```coffee-script
+shell = require("gulp-shell")
+
+module.exports = (gulp, cfg, env) ->
+
+  gulp.task 'moveAssets', ->
+    gulp.src(cfg.paths.assets + "**/*")
+    .pipe(gulp.dest(cfg.paths.dest))
+
+  gulp.task('grunticon', shell.task([
+    'node_modules/.bin/grunt grunticon'
+  ]))
+
+  gulp.task 'assets', ['moveAssets']
+```
+
+Note:
+
+- syntax can be in either coffeescript or javascript, it will figure it out.
+- in this example we're using a gulp package to run a shell command which just so happens to be a grunt command. These tools can work together!
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+The Holy Grail:
+
+**Modular Markup**
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![](/img/simple-page.png)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![](/img/simple-page-markup.png)
+
+Note:
+
+- This is the final painpoint for us. We've got these great build tools, task runners, what about our Markup?
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![](/img/hbs.png) <!-- .element: style="display: inline-block; width: auto; vertical-align: top; margin-right: 32px;" -->
+![](/img/assemble.png) <!-- .element: style="display: inline-block; vertical-align: top; width: auto;" -->
+
+## Handlebars + Assemble:
+
+*powerful, modular markup*
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Handlebars
+
+- Basic Templating without a CMS <!-- .element: class="fragment" -->
+- Brings automation power to markup <!-- .element: class="fragment" -->
+
+![](/img/hbs.png) <!-- .element: style="width: 100px; position: absolute; right: 50px; padding-top: 10%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Assemble
+
+- Static site generator <!-- .element: class="fragment" -->
+- Organize your layouts into mangeable chunks <!-- .element: class="fragment" -->
+- Seperate your data from markup <!-- .element: class="fragment" -->
+
+![](/img/assemble.png) <!-- .element: style="width: 100px; position: absolute; right: 50px; padding-top: 10%;;" -->
+
+Note:
+
+- Seperating data from markup is a **huge** win as it:
+  - keeps our HTML+Data DRYer, 
+  - more grokkable (easier to reason about), 
+  - and quicker to iterate on.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Other approaches to modular markup
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Pattern Lab
+
+![](/img/pattern-lab.png) <!-- .element: style="" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### What is Pattern Lab?
+
+- Pattern lab is a tool for aotmic design projects <!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### What is atomic design?
+
+- Atomic design is basically a system for modular markup <!-- .element: class="fragment" -->
+- "We're not designing pages, we're designing systems of components." <!-- .element: class="fragment" -->
+- "Responsive deliverables should look a lot like fully-functioning Twitter Bootstrap-style systems custom tailored for your clients' needs." <!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Atomic Design
+
+> The thought is that all matter (whether solid, liquid, gas, simple, complex, etc) is comprised of atoms. Those atomic units bond together to form molecules, which in turn combine into more complex organisms to ultimately create all matter in our universe.
+
+[Atomic Web Design - Brad Frost](http://bradfrost.com/blog/post/atomic-web-design/)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Modular Styles
+
+Once we have modular markup, it makes sense to have our styles follow the same format.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+```scss
+.tool-list-item {
+  @extend %clearfix;
+  overflow: hidden;
+  position: relative;
+}
+
+.pd_all {
+  padding: 1em;
+}
+```
+
+We can use multiple classes to create a more complex design. These classes on their own are incredible simple.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Lego or CSS Alchemy?
+
+[- Nicoals Gallagher](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/#how-i-learned-to-stop-worrying-)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Exercise
+
+1. Start the demo app server on your machine <!-- .element class="no-bullet" -->
+2. Add your name and picture to the app <!-- .element class="no-bullet" -->
+3. Fill in your favorite tools <!-- .element class="no-bullet" -->
+4. Add or Modify a row <!-- .element class="no-bullet" -->
+
+Note:
+
+- Add uglify grunt plugin 
+
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+# Device testing <!-- .element: class="footer-line" -->
+
+
+<!-- .slide: data-background="/img/device-testing/adam-devices.jpg" -->
+#Get your hands dirty
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+##Community Device Lab
+_Start one?_
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+##Company Device Lab
+_Start one?_
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+![Device Wall](/img/device-testing/devicewall.jpg)
+Note:
+- We’re fortunate to have an active and growing device lab at Sparkbox.
+- Trying to build a culture of testing and compatability
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+##Getting Started
+
+- Android mobile device <!-- .element: class="fragment" -->
+- iOS mobile device (iPod Touch works great) <!-- .element: class="fragment" -->
+- A tablet: iPad Mini, Kindle Fire, or Google Nexus <!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="/img/device-testing/poordevicewall.jpg" -->
+
+##Poor mans device lab!
+
+- Image source: http://www.flickr.com/photos/21241102@N00/3908708670/
+Note:
+- We might get in trouble for saying this, but AT&T / Best Buy / the Apple store all make great testing labs!
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Virtualization
+Note:
+- is the creation of a virtual (rather than actual) version of something, such as an operating system, a server, a storage device or network resources
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+Desktop OS virtualization allows developers to run alternate operating systems for testing purposes.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Parallels
+![Parallels](/img/device-testing/parallels.jpg) <!-- .element style="margin: 5% auto 3%; display: block;" -->
+[parallels.com](http://parallels.com)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Virtualbox
+![Virtualbox](/img/device-testing/virtual-box.png)<!-- .element style="margin: 5% auto 3%; display: block;" -->
+[virtualbox.org](http://virtualbox.org)
+
+Note:
+- "Virtualization Software"
+- Commercial vs. open source
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###But what about licensing?
+
+Note:
+- Along with a visualization solution, you need licenses of the actual OS to install.
+- This usually means purchasing a license for each OS.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+##Licensing
+
+
+<!-- .slide: data-background="/img/device-testing/it-window-jump.gif" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Modern IE](/img/device-testing/modernie.jpg) <!-- .element style="display: block; margin: 0 auto; max-width: 100%; max-height: 266px" -->
+[modern.ie](http://modern.ie) <!-- .element style="text-align: center;" -->
+Note:
+- 90 day liscensing
+- Download zip file for any and all
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+###Every major IE and it's needed OS
+![Virtualbox](/img/device-testing/virtualbox-window.png)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Simulated VMs in your browser
+
+![BrowserStack](/img/device-testing/browser-stack.png)<!-- .element style="display: block; margin: 6% auto 2%; max-width: 100%; max-height: 266px" -->
+[browserstack.com](http://browserstack.com)<!-- .element style="text-align: center;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Mobile Device Emulation
+
+- iOS simulation with Xcode's iOS Simulator <!-- .element: class="fragment" -->
+- Android simulation with Google’s Android Emulator <!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+We default to using physical devices if possible, VM's for IE, and Browserstack for everything else.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### Which devices should you support?
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### There are over 5,000 devices, and growing
+[Unique devices](http://www.thedrum.com/news/2014/11/25/consumers-using-over-5000-unique-devices-access-web-netbiscuits-finds)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+### Device matrix
+
+- Determine common devices based on site analytics <!-- .element: class="fragment" -->
+- Assign a rating to the devices <!-- .element: class="fragment" -->
+
+![](/img/beericon-small-980.png) <!-- .element: style="height: 150px; margin-top: 10%;" -->
+
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+#Synchronized testing software<!-- .element: class="footer-line" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+##3rd party synchronized testing software
+
+- Adobe Edge Inspect <!-- .element: class="fragment" -->
+- BrowserSync <!-- .element: class="fragment" -->
+- Ghostlab <!-- .element: class="fragment" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+##Adobe Edge Inspect
+
+![Adobe Edge Inspect](/img/synchronized-testing/edge-inspect-setup.png) <!-- .element style="width: 75%;" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Adobe Edge Inspect](/img/synchronized-testing/edge-browser.png)
+Note:
+- Full Chrome dev tools for the site in iOS
+- includes a Javascript console!
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Adobe Edge Inspect](/img/synchronized-testing/edge-phone.png)<!-- .element style="width: 40%;" -->
+
+Note:
+- helpful tools on the iOS app like quick screenshot sharing.
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Adobe Edge inspect works great, but limited in devices. Included in CC membership.
+
+Note:
+- Works great for knocking out first draft mobile device testing, and comes in really handy for Android testing.
+- Limited to devices that can download the application.
+- Comes with an Adobe Creative Cloud membership
+
+
+##BrowserSync
+![BrowserSync](/img/synchronized-testing/browsersync.png)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###Set up through CLI or your task runner
+
+```js
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+});
+```
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+###BrowserSync
+
+- Weinre <!-- .element: class="fragment" -->
+- Synchronized forms and updates <!-- .element: class="fragment" -->
+
+![](/img/beericon-small-980.png) <!-- .element: class="fragment" style="height: 150px; margin-top: 10%;" -->
+
+Note:
+- Has chrome debug tools (winere) available
+
+
+##Ghostlab
+
+![Ghostlab](/img/synchronized-testing/ghostlab.png)
+
+Note:
+- No CLI needed
+- Potentially more stable weinre debugging
+- Currently on sale for $34.30
+
+
+
+<!-- .slide: data-background="#50b7c5"-->
+
+# Accessibility Testing <!-- .element: class="footer-line" -->
+Note:
+- Don't use display: none, menu dropdown story
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### 18.7% of people in the U.S. have a disibility
+[2010 US Cencus](http://www.census.gov/people/disability/publications/disab10/table_1.pdf)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+### 3.32% of web traffic comes from IE8
+[Global Stats Counter](http://gs.statcounter.com/#all-browser_version_partially_combined-ww-monthly-201403-201504-bar)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+##Don't overlook accessibility testing. Consider it a part of your job.
+
+![](/img/beericon-small-980.png) <!-- .element: style="height: 150px; margin-top: 10%;" -->
+
+Note:
+- Often overlooked in testing
+- The structure of HTML and CSS used can affect how screen readers interpret the website. It is important to take the time and listen to how your code is read and make adjustments accordingly.
+- An improper structure can lead to a confusing experience and frustrated end users.
+- <a> <h1> </h1> </a>
+- Blind people don't have context of a "small screen"
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+##VoiceOver on OS X
+
+System Preferences > Accessibility
+
+![VoiceOver](/img/accessibility-testing/voice-over-osx.png)
+Note:
+- Run through a screen reader as a bare minimum.
+- Branch out from there.
+- Safari Web rotor (Ctrl + Option + U)
+- VoiceOver search (Ctrl + Option + F)
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+##VoiceOver on iOS
+
+Preferences > General > Accessibility
+![VoiceOver](/img/accessibility-testing/voice-over.png) <!-- .element style="width: 45%" -->
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+##Sim Daltonism
+![VoiceOver](/img/accessibility-testing/sim-daltonism.png)
+Mac App Store
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+##XScope
+![XScope](/img/accessibility-testing/x-scope.png)
+[iconfactory.com/software/xscope](http://iconfactory.com/software/xscope)
+Note:
+- Color / vision impairment testing, among other things.
+- Not open source
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+## Exercise
+
+1. Add browsersync to your app <!-- .element class="no-bullet" -->
+2. Pull up your local server on your mobile device <!-- .element class="no-bullet" -->
+
+Note:
+
+- Access the browsersync via yourname.local
+
+
+
+<!-- .slide: data-background="#1e1e1e" -->
+
+![Frontend Tooling](/img/build-right-frontend-tooling-white.png) <!-- .element style="height: 300px;" -->
+
+# Thank You <!-- .element style="color: white; margin-bottom: 32px;" -->
+
+![Sparkbox](/img/SBX_logo_horiz_lockup_white.png) <!-- .element style="height: 40px;" -->
